@@ -16,6 +16,7 @@
   font-size: 1.25em;
   display:block;
   clear:both;
+  width:90%;
   display: inline-block;
   margin: 0 auto;
   text-align: center;
@@ -25,21 +26,18 @@
   position:relative;
   display: inline-block;
   margin: 0 auto;
-  float: left;
 }
 
 .about {
   position:relative;
   display: inline-block;
   margin: 0 auto;
-  float: left;
 }
 
 .nav_list li {
   display: inline-block;
   vertical-align: middle;
 }
-
 .nav_list ul {
    margin:0 auto;
    padding:0;
@@ -48,13 +46,8 @@
 
 .logo {
   position:relative;
+  margin: 0 100px 0 100px;
   display: inline-block;
-  float: left;
-}
-
-.logo img {
-  width: 80%;
-  height: 80%;
 }
 
 body {
@@ -123,7 +116,7 @@ p a {
 }
 
 .intro {
-  width:90%;
+  width:52%;
   margin: 7% auto 0 auto ;
   display: block;
   text-align: center;
@@ -133,13 +126,8 @@ p a {
   position: relative;
   margin: 0 auto;
   display: block;
+  width: 720;
   text-align: center;
-}
-
-#video video {
-  width: 320px;
-  height: 213px;
-
 }
 
 .example_image {
@@ -150,13 +138,15 @@ p a {
   text-align: center;
 }
 
-.example_image img {
-  width: 80%;
-  height: 80%;
+.example_image2 {
+  padding: 5% 0 0 0;
+  margin: 0 auto 2% auto;
+  position: relative;
+  display:block;
+  text-align: center;
 }
-
 #sidebyside {
-  padding: 0 0 30px 0;
+  padding: 0 50px 0 0;
 }
 
 .container {
@@ -173,7 +163,6 @@ p a {
   padding:0 20px 0 0px;
   position: relative;
 }
-
 
 .container li {
   display: inline;
@@ -196,14 +185,9 @@ a img:hover {
   display: block;
   margin: 0 auto 2% auto;
   padding: 6% 0 6% 0;
-  width: 90%;
+  width: 60%;
   background-color: #f5f5f5;
 
-}
-
-.logobox img {
-  height:130px;
-  width: 200px;
 }
 
 .icons {
@@ -220,68 +204,4 @@ a img:hover {
   display: inline;
 }
 
-
-
-@media (min-width: 1000px) {
-  .description {
-    width: 38%;
-  }
-}
-
-@media (min-width: 600px) {
-.logo {
-  position:relative;
-  margin: 0 100px 0 100px;
-  display: inline-block;
-  float:none;
-  }
-  .about, .work {
-    position:relative;
-    display: inline-block;
-    margin: 0 auto;
-    float: none;
-  }
-}
-
-@media (min-width: 700px) {
-
-  .intro {
-    width:52%;
-    margin: 7% auto 0 auto ;
-    display: block;
-    text-align: center;
-    }
-  #video video{
-    height:480px;
-    width: 720px;
-    }
-  #sidebyside {
-      padding: 0 30px 0 0;
-    }
-  .example_image img {
-      margin-left: auto;
-      margin-right: auto;
-      width: auto;
-      height: auto;
-    }
-  .logobox img {
-      margin-left: auto;
-      margin-right: auto;
-      width: 320px;
-      height: 220px;
-    }
-  .logobox {
-      margin-left: auto;
-      margin-right: auto;
-      width: 60%;
-    }
-  .description {
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%;
-    }
-    .logo img {
-      height: auto;
-      width: auto;
-        }
-    }
+ 
