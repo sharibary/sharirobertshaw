@@ -1,5 +1,5 @@
 
-.header{
+.header {
   position:relative;
   display: block;
   margin: 40px auto 0 auto;
@@ -7,7 +7,7 @@
   text-align: center;
 }
 
-.nav_list{
+.nav_list {
   position:relative;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-weight: 200;
@@ -17,7 +17,7 @@
   display:block;
   clear:both;
   display: inline-block;
-  margin: 0 auto;
+  margin: auto;
   text-align: center;
 }
 
@@ -66,12 +66,16 @@ a {
   text-decoration: none;
 }
 
+ul {
+  padding: 0;
+}
+
 li a:hover {
     color:#30b4c6;
     text-decoration: none;
 }
 
-h1 {
+h1, h2 {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-weight: 200;
   font-size: 2em;
@@ -81,12 +85,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-weight: 200;
   font-size: 1.25em;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  text-align: center;
   padding-bottom: 20px;
 }
 
@@ -117,6 +116,10 @@ p a {
 
 }
 
+a:hover {
+  opacity: .8;
+}
+
 .description {
   margin: 7% 1em;
   display: block;
@@ -140,7 +143,6 @@ p a {
 #video video {
   width: 320px;
   height: 213px;
-
 }
 
 .example_image {
@@ -161,9 +163,8 @@ p a {
 }
 
 .container {
-  width:90%;
+  max-width:1000px;
   position: relative;
-  margin: 0 auto;
   display: block;
   text-align: center;
   padding: 50px 0 0 0;
@@ -176,15 +177,23 @@ p a {
   text-decoration: none;
 }
 
-.border {
-  border: 1px #dadada solid;
-
+.logocontainer {
+  position: relative;
+  display: block;
+  text-align: center;
+  padding: 50px 0 0 0;
 }
 
+.logocontainer li {
+  display: inline;
+  margin: 0 auto;
+  position:relative;
+  text-decoration: none;
+}
 
 .logobox {
   display: block;
-  margin: 0 auto 2% auto;
+  margin: 20px auto 0 auto;
   padding: 6% 0 6% 0;
   width: 90%;
   background-color: #f5f5f5;
@@ -197,11 +206,10 @@ p a {
 }
 
 .icons {
-  width:98%;
   position: relative;
   padding: 50px 0 0 0;
   margin: 0 auto;
-  display: inline-block;
+  display: block;
   text-align: center;
 }
 
@@ -210,16 +218,11 @@ p a {
   display: inline;
 }
 
-a:hover {
-  opacity: .8;
-}
 
 .image-wrraper {
-    width: 276px;
-    height: 276px;
     position: relative;
     display: inline-block;
-    margin: 20px 20px 0 0;
+    margin-top: 20px;
 }
 
 .image-title {
@@ -288,37 +291,56 @@ a:hover {
     display: block;
     text-align: center;
     }
+
   #video video{
     height:480px;
     width: 720px;
     }
+
   #sidebyside {
       padding: 0 30px 0 0;
     }
+
   .example_image img {
       margin-left: auto;
       margin-right: auto;
       width: auto;
       height: auto;
     }
+
   .logobox img {
       margin-left: auto;
       margin-right: auto;
       width: 320px;
       height: 220px;
     }
+
   .logobox {
       margin-left: auto;
       margin-right: auto;
       width: 60%;
     }
+
   .description {
       margin-left: auto;
       margin-right: auto;
       width: 50%;
     }
+
     .logo img {
       height: auto;
       width: auto;
-        }
     }
+
+    .container {
+      width:90%;
+      position: relative;
+      display: block;width:
+      text-align: center;
+      padding: 50px 0 0 0;
+      margin: auto;
+    }
+    .image-wrraper {
+      margin: 20px 20px 0 0;
+    }
+  }
