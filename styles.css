@@ -120,6 +120,15 @@ a:hover {
   opacity: .8;
 }
 
+h4 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  font-size: .75em;
+  color: #959595;
+  margin-top: 50px;
+}
+
+
 .description {
   margin: 7%;
   display: block;
