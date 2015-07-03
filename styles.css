@@ -121,13 +121,20 @@ a:hover {
 }
 
 .description {
-  margin: 7% 1em;
+  margin: 7%;
   display: block;
   text-align: center;
 }
 
 .intro {
   width:90%;
+  margin: 7% auto 0 auto ;
+  display: block;
+  text-align: center;
+}
+
+.intro2 {
+  width:70%;
   margin: 7% auto 0 auto ;
   display: block;
   text-align: center;
@@ -325,6 +332,10 @@ a:hover {
       margin-left: auto;
       margin-right: auto;
       width: 50%;
+    }
+
+    .description img {
+        padding: 50px 0 0 0;
     }
 
     .logo img {
