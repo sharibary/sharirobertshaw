@@ -21,7 +21,7 @@
   text-align: center;
 }
 
-.work {
+.blog {
   position:relative;
   display: inline-block;
   margin: 0 auto;
@@ -34,6 +34,7 @@
   margin: 0 auto;
   float: left;
 }
+
 
 .nav_list li {
   display: inline-block;
@@ -128,6 +129,60 @@ h4 {
   margin-top: 50px;
 }
 
+h5{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 200;
+  font-size: 2.75em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  color:#30b4c6;
+}
+
+.blogpost {
+  width:80%;
+  margin: 7% auto 0 auto ;
+  display: block;
+  text-align: left;
+
+}
+
+.blogpost p {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  font-size: 1.1em;
+  text-align: left;
+  line-height: 32px;
+    }
+
+.blogpost span {
+  color:#30b4c6;
+  font-weight: 300;
+  font-size:1.15em;
+}
+
+.blogpost ul li{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  font-size: 1.1em;
+  text-align: left;
+  line-height: 32px;
+  margin:0 auto;
+  padding: 0;
+  display: list-item;
+  list-style: circle;
+  list-style-position: inside;
+  }
+.blogpost h5 {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+.blogpost h3 {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
 
 .description {
   margin: 7%;
@@ -291,7 +346,7 @@ h4 {
   display: inline-block;
   float:none;
   }
-  .about, .work {
+  .about, .blog {
     position:relative;
     display: inline-block;
     margin: 0 auto;
@@ -363,4 +418,11 @@ h4 {
     .image-wrraper {
       margin: 20px 20px 0 0;
     }
+  }
+
+  #disqus_thread {
+    margin: 100px auto;
+    width: 80%;
+    text-align: center;
+
   }
