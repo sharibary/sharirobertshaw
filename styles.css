@@ -363,6 +363,13 @@ h5{
     text-align: center;
     }
 
+  .self {
+    width:52%;
+    margin: 7% auto 0 auto ;
+    display: block;
+    text-align: center;
+  }
+
   #video video{
     height:480px;
     width: 720px;
