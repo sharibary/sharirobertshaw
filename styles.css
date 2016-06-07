@@ -333,6 +333,12 @@ h5{
     max-width: 100%;
 }
 
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi)
+ .image-wrraper{
+    /* Retina-specific stuff here */
+}
 
 @media (min-width: 1000px) {
   .description {
